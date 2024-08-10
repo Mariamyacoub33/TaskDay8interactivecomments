@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="./Day 8_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite + React</title>
+  <style type="text/css" data-vite-dev-id="C:/Users/hp/OneDrive/Desktop/Task Day 8/TaskDay8interactivecomments/src/App.css">main{
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+justify-content: center;
+}
+
+
+@media only screen and (max-width: 375px) {
+  Main {
+    width: 100%;
+    height: 95%;
+  }
+}
+</style><style type="text/css" data-vite-dev-id="C:/Users/hp/OneDrive/Desktop/Task Day 8/TaskDay8interactivecomments/src/Components/Posts/Posts.css">#Postsdiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around;
+    row-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+    /* #Postsdiv {
+width: 100%;
+height: 100;
+    } */
+
+}</style><style type="text/css" data-vite-dev-id="C:/Users/hp/OneDrive/Desktop/Task Day 8/TaskDay8interactivecomments/src/Components/Postinfo/Postinfo.css">.Postinfodiv{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Usernamediv{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Upperdiv{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Leftside{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Leftside>img{
+    width: 32px;
+    height: 32px;
+}
+
+#UserName{
+    color: #334253;
+    font-size: larg;
+    font-weight: bolder;
+}
+
+#Timeago{
+    color: #67727E;
+    font-size: larg;
+    font-weight: normal;
+}
+
+.Rightside{
+    width: 20%;
+    color: #5357B6;
+    font-size: medium;
+    font-weight: bold;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: row;
+row-gap: 10px;
+cursor: pointer;
+}
+
+.IconDelete{
+    width: 20%;
+    color: #f16c73;
+    font-size: medium;
+    font-weight: bold;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: row;
+row-gap: 10px;
+cursor: pointer;
+}
+
+.Icon{
+    width: 16px;
+    height: 14px;
+}
+
+.Rightside:hover{
+color: #C5C6EF;
+}
+
+p{
+    color: #67727E;
+    font-size: medium;
+    font-weight: normal;
+    text-align: left top;
+}
+
+@media only screen and (max-width: 375px) {
+    .Postdiv{
+        flex-direction: column-reverse;
+        justify-content: start;
+        align-items: start;
+row-gap: 0px;
+    }
+
+    .Usernamediv{
+        width: 97%;
+        height: 80%;
+    }
+
+    .Upperdiv{
+        position: relative;
+    }
+
+    .Rightside{
+        position: absolute;
+        top: 125px;
+        left: 250px;
+    }
+
+    .Leftside{
+        width: 100%;
+    }
+
+    p{
+        width: 100%;
+    }
+
+}</style><style type="text/css" data-vite-dev-id="C:/Users/hp/OneDrive/Desktop/Task Day 8/TaskDay8interactivecomments/src/Components/Counter/Counter.css">.Counter{
+    width: 40px;
+    height: 100px;
+    background-color: #f2f4fd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    color: #C5C6EF;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#counter{
+    color: #5357B6;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 375px) {
+    .Counter{
+        width: 100px;
+        height: 40px;
+        flex-direction: row;
+        padding-bottom: 10px;
+        justify-content: space-around;
+    }
+    
+}</style><style type="text/css" data-vite-dev-id="C:/Users/hp/OneDrive/Desktop/Task Day 8/TaskDay8interactivecomments/src/Components/Input/Input.css">#inputdiv{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    row-gap: 5px;
+}
+
+
+img{
+    width: 32px;
+    height: 32px;
+}
+
+#inputvalue{
+    width: 65%;
+    height: 80%;
+border: .5px solid rgb(179, 176, 176) ;
+border-radius: 5px;
+}
+
+.SubmitBtn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #5357B6;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+
+}
+
+</style><style type="text/css" data-vite-dev-id="C:/Users/hp/OneDrive/Desktop/Task Day 8/TaskDay8interactivecomments/src/Components/Commentswrapper/Commentswrapper.css">.Commentswrapper{
+    width: 90%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 20px;
+justify-content: space-around;
+background-color: white;
+border-radius: 20px;
+}
+
+.Pcomment{
+    width: 100%;
+    
+    
+}</style><style type="text/css" data-vite-dev-id="C:/Users/hp/OneDrive/Desktop/Task Day 8/TaskDay8interactivecomments/src/index.css">html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #F5F6FA;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: rgb(95, 32, 155);
+  }
+
+}
+</style></head>
+  <body>
+    <div id="root"><main><div id="Postsdiv"><div class="Postinfodiv"><div class="Counter"><button>+</button><label id="counter">0</label><button>-</button></div><div class="Usernamediv"><div class="Upperdiv"><div class="Leftside"><img src="./Day 8_files/image-amyrobson.png"><label id="UserName">amyrobson</label><label id="Timeago">1 month ago</label></div><button class="Rightside" id="1"><img class="Icon" src="./Day 8_files/icon-reply.svg"><label>Reply</label></button></div><p>Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You’ve nailed the design and the responsiveness at various breakpoints works really well.</p></div></div><div class="Postinfodiv"><div class="Counter"><button>+</button><label id="counter">0</label><button>-</button></div><div class="Usernamediv"><div class="Upperdiv"><div class="Leftside"><img src="./Day 8_files/image-maxblagun.png"><label id="UserName">maxblagun</label><label id="Timeago">2 weeks ago</label></div><button class="Rightside" id="2"><img class="Icon" src="./Day 8_files/icon-reply.svg"><label>Reply</label></button></div><p>Woah, your project looks awesome! How long have you been coding for? I’m still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</p></div></div><div class="Commentswrapper"><div class="Counter"><button>+</button><label id="counter">0</label><button>-</button></div><div class="Usernamediv"><div class="Leftside"><img src="./Day 8_files/image-ramsesmiron.png"><label id="UserName">ramsesmiron</label><label id="Timeago">1 week ago</label></div><p class="Pcomment">@maxblagun If you’re still new, I’d recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It’s very tempting to jump ahead but lay a solid foundation first.</p></div></div><div class="Commentswrapper"><div class="Counter"><button>+</button><label id="counter">0</label><button>-</button></div><div class="Usernamediv"><div class="Leftside"><img src="./Day 8_files/image-ramsesmiron.png"><label id="UserName">ramsesmiron</label><label id="Timeago">1 week ago</label></div><p class="Pcomment">@maxblagun If you’re still new, I’d recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It’s very tempting to jump ahead but lay a solid foundation first.</p></div></div><div class="Postinfodiv"><div class="Counter"><button>+</button><label id="counter">0</label><button>-</button></div><div class="Usernamediv"><div class="Upperdiv"><div class="Leftside"><img src="./Day 8_files/image-juliusomo.png"><label id="UserName">juliusomo</label><label id="Timeago">2 days ago</label></div><button class="Rightside" id="3"><img class="Icon" src="./Day 8_files/icon-reply.svg"><label>Reply</label></button><button class="IconDelete" id="3"><img class="Icon" src="./Day 8_files/icon-delete.svg"><label>Delete</label></button></div><p>@ramsesmiron I couldn’t agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.</p></div></div><div id="inputdiv"><img src="./Day 8_files/image-juliusomo.png"><input id="inputvalue" value=""><button class="SubmitBtn">SEND</button></div></div></main></div>
+    <script type="module" src="./Day 8_files/main.jsx"></script>
+  
+
+</body></html>

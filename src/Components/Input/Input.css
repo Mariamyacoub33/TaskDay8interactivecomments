@@ -1,0 +1,35 @@
+#inputdiv{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    row-gap: 5px;
+}
+
+
+img{
+    width: 32px;
+    height: 32px;
+}
+
+#inputvalue{
+    width: 65%;
+    height: 80%;
+border: .5px solid rgb(179, 176, 176) ;
+border-radius: 5px;
+}
+
+.SubmitBtn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #5357B6;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+
+}
+

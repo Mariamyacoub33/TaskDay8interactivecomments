@@ -20,5 +20,6 @@ border-radius: 20px;
         flex-direction: column-reverse;
         align-items: start;
         padding: 10px;
+        box-sizing: border-box;
     }
 }
